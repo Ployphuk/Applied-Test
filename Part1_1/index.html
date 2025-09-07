@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BankPin</title>
+</head>
+<body>
+    <div class="page-container flex flex-col justify-center items-center min-h-screen w-full ">
+        <div class="close-buttton relative w-full left-20 bottom-10">
+            <div class="absolute top-1/2 left-1/2 w-6 h-0.5 bg-black -translate-x-1/2 -translate-y-1/2 rotate-45"></div>
+            <div class="absolute top-1/2 left-1/2 w-6 h-0.5 bg-black -translate-x-1/2 -translate-y-1/2 -rotate-45"></div>
+        </div>
+        <div class="page-header mt-2 ">
+            <h2>กรุณาใส่รหัสผ่าน</h2>
+        </div>
+        <div class="progression-bar flex justify-center items-canter gap-2 my-4">
+            <div class=" w-3 h-3 bg-teal-600 rounded-full"></div>
+            <div class=" w-3 h-3 bg-teal-600 rounded-full"></div>
+            <div class=" w-3 h-3 border border-teal-600 rounded-full"></div>
+            <div class=" w-3 h-3 border border-teal-600 rounded-full"></div>
+            <div class=" w-3 h-3 border border-teal-600 rounded-full"></div>
+            <div class=" w-3 h-3 border border-teal-600 rounded-full"></div>
+        </div>
+        <div class="pin-num grid grid-cols-3 grid-rows-3 gap-4">
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg">1</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg" ">2</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">3</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">4</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">5</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 ">6</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">7</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">8</div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 text-lg"">9</div>
+            <div></div>
+            <div class="w-10 h-10 border  rounded-full flex justify-center items-center  border-gray-300 ">0</div>
+            <div class="flex justify-center items-center">
+                <img src="/src/delete-icon.svg" alt="delete-icon" class="w-6 h-6" >
+            </div>
+        </div>
+        <div class="link-bottom mt-4 ">
+            <a href="" target="" class="text-teal-500 underline">ลืมรหัสผ่าน</a>
+        </div>
+    </div>
+</body>
+</html>

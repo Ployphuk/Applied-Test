@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container flex flex-col p-4 max-w-md mx-auto justify-center h-screen ">
+        <div class="time-text flex justify-center mb-4 text-gray-500">
+            <p>a few seconds ago</p>
+        </div>
+        <div class="left-1 flex justify-start items-center gap-2">
+            <div class="left-profile ">
+                <div class="bg-pink-400 w-8 h-8 rounded-full"></div>
+            </div>
+            <div class="left-chat bg-gray-300 w-30 h-8 px-3 py-1 rounded-full self-end ">
+                <p>ทำอะไรอยู่</p>
+            </div>
+        </div>
+        <div class="right-1 flex flex-col gap-0.5">
+            <div class="right-chat bg-green-300 self-end px-3 py-2 rounded-tl-full rounded-tr-full rounded-bl-full">
+                <p>ไม่ได้ทำไร นั่งเปื่อยๆอยู่</p>
+            </div>
+            <div class="right-chat right-chat bg-green-300 self-end px-3 py-2 rounded-tl-full rounded-br-full rounded-bl-full">
+                <p>นอนดึกจัง</p>
+            </div>
+        </div>
+        <div class="left-2 flex justify-start items-center gap-2">
+            <div class="left-profile">
+                <div class="bg-pink-400 w-8 h-8 rounded-full"></div>
+            </div>
+            <div class="left-chat bg-gray-300 w-30 h-8 px-3 py-1 rounded-full self-end">
+                <p>ว่าจะทำงาน แต่ตอนนี้ไม่มีอารมณ์แล้ว</p>
+            </div>
+        </div>
+        <div class="right-2 flex justify-end gap-1">
+            <div class="right-chat right-chat bg-green-300 self-end px-3 py-2 rounded-full">
+                <p>ติสท์จัง</p>
+            </div>
+            <div class="right-profile">
+                <div class="bg-pink-400 w-4 h-4 rounded-full"></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
